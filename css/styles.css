@@ -1,0 +1,39 @@
+
+body{
+  background: #181A1B;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+h1{
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin:  5%;
+  color: #FEF2BF;
+}
+
+button{
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+  border: 8px solid black;
+  margin: 2%;
+  outline: none;
+}
+
+
+#green{
+  background: #008002;
+}
+
+#red{
+  background: #FF0000;
+}
+
+#yellow{
+  background:yellow;
+}
+
+#blue{
+  background: #2700FF;
+}

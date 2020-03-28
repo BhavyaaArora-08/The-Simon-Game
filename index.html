@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>The Simon Game</title>
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <h1>Press A Key to Start</h1>
+  <div class="container" onkeypress="randomNumber">
+    <button type="button" id="green"></button>
+    <audio src="sounds/green.mp3" id="greena"></audio>
+    <button type="button" id="red"></button>
+    <audio src="sounds/red.mp3" id="reda"></audio>
+    <br>
+    <button type="button" id="yellow"></button>
+    <audio src="sounds/yellow.mp3" id="yellowa"></audio>
+    <button type="button" id="blue"></button>
+    <audio src="sounds/blue.mp3" id="bluea"></audio>
+
+    <audio class="wrong" src="sounds/wrong.mp3"></audio>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="js/script.js" charset="utf-8"></script>
+</body>
+
+</html>
